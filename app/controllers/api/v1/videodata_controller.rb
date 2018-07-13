@@ -4,7 +4,6 @@ module Api
       require 'streamio-ffmpeg'
       def index
         videodata = VideoDatum.all
-        raise
         # render :json => videodata.map { |videodatum| videodatum.as_json(:only => :file_name, :methods => :duration)}
         render json: videodata, except: [:id, :created_at, :updated_at],
           include: {video_streams: { except: [:id, :video_datum_id, :created_at, :updated_at] },

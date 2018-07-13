@@ -70,6 +70,7 @@ Some more feature ideas...
 <h4>Sample local Ruby test script</h4>
 Installing of ffmpeg and installation of streamio-ffmpeg apply
 
+<code>
 require 'rubygems'
 require 'streamio-ffmpeg'
 require 'net/http'
@@ -94,9 +95,9 @@ p "audio_codec"
 p movie_1.audio_codec
 p "The caption_stream id"
 
-<i>Raw ffmpeg metadata script</i>
 def read_video(url)
   system "ffprobe -print_format json -show_streams -show_streams #{url}"
 end
 
 read_video("vualto/test_resources/test_resources/sample_1.mp4")
+</code>

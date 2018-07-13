@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  stream_id: 1
+  bitrate: 1
+  fps: 1.5
+  resolution: MyString
+  video_datum: one
+
+two:
+  stream_id: 1
+  bitrate: 1
+  fps: 1.5
+  resolution: MyString
+  video_datum: two

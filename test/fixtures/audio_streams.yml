@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  stream_id: 1
+  language: MyString
+  sample_rate: 1
+  format: MyString
+  video_datum: one
+
+two:
+  stream_id: 1
+  language: MyString
+  sample_rate: 1
+  format: MyString
+  video_datum: two
